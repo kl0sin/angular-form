@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './modules/login/login.module';
 import { RegisterModule } from './modules/register/register.module';
 import { HomeModule } from './modules/home/home.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
